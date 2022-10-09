@@ -29,7 +29,8 @@ public:
                 break;
             }
         }
-
+         //Empty stack -> Valid parentheses
+        //Filled stak -> Invalid parentheses
         return sign.empty(); 
         
     }
